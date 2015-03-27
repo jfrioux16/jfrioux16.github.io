@@ -1,0 +1,63 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12 pt;
+  font-family: serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+li{
+  margin: 0;
+}
+
+h3 + ul {
+  margin-top: 0;
+}
+
+h2 + ul {
+  margin-top: 0;
+}
+
+nav {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[href$=".html"] {
+  display: inline;
+}
+
+a[href^="http://"]:after,
+a[href^="https://"]:after {
+  display: inline;
+}
+
+footer p.web {
+  display: none;
+}
