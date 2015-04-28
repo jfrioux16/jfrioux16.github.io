@@ -21,7 +21,7 @@ p {
   margin: 0;
 }
 
-h2 {
+h4 {
   margin: 0;
 }
 
@@ -29,20 +29,16 @@ h3 {
   margin: 0;
 }
 
-li{
+li {
   margin: 0;
+}
+
+h4 + ul{
+  margin-top: 0;
 }
 
 h3 + ul {
   margin-top: 0;
-}
-
-h2 + ul {
-  margin-top: 0;
-}
-
-nav {
-  display: none;
 }
 
 a {
@@ -50,14 +46,10 @@ a {
 }
 
 a[href$=".html"] {
-  display: inline;
+  diplay: inline;
 }
 
 a[href^="http://"]:after,
 a[href^="https://"]:after {
   display: inline;
-}
-
-footer p.web {
-  display: none;
 }
