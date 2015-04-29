@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {
+  background: url("../img/concrete_seamless.png");
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #222;
+  margin: 2em;
+}
+
+#container {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: 700;
+  background: blue;
+  padding: 0.5em;
+  text-align: center;
+  color: white;
+}
+
+aside {
+  border: 1px solid blue;
+  background: white;
+  float: center;
+  padding: 5px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+h2 ,h3, h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+li {
+  margin: 0;
+}
+
+h4 + ul {
+  margin-top: 0;
+}
+
+h3 + ul {
+  margin-top: 0;
+}
+
+img {
+  background: rgba(255,255,255,0.75);
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+}
+
+img + ul {
+  margin-top: 0;
+}
+
+p + ul {
+  margin-top: 0;
+}
